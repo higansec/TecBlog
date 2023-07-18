@@ -1,0 +1,86 @@
+/*Tirando formatação padrão e definindo o cabalhaço*/
+ {
+
+}
+
+body {
+    background: rgb(228, 228, 228); /*cor de fundo*/
+    font-family: Arial, Helvetica, sans-serif; /**/
+    font-size: 16px; /*tamanho*/
+}
+
+/*layout*/
+#cabecalho {
+    background-color: rgb(255, 157, 0);
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, area-menu {
+    padding: 10px;
+}
+
+/*fmt menu*/
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+/*area principal e outros dentro*/
+#area-principal {
+    width: 920px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+    background: white;
+}
+
+.postagens {
+
+}
+
+h2 {
+    color: rgb(255, 157, 0);
+}
+
+.data-postagens {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-post {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+    background: rgb(180, 180, 180);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.post-lateral {
+    background: rgb(255, 254, 254);
+}
+
+#area-rodape {
+    text-align: center;
+    background: gray;
+}
+
+/*fmt gerais*/
+area-logo {
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
